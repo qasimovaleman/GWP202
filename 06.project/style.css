@@ -1,0 +1,74 @@
+.container {
+  max-width: 1200px;
+  padding: 0 5%;
+}
+
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  column-gap: 1rem;
+  background: transparent;
+}
+.dark {
+  padding-top: 5px;
+}
+h3 {
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+}
+.inputIcon {
+  position: relative;
+}
+.searchIcon {
+  position: absolute;
+  left: 5px;
+  top: 12px;
+}
+input {
+  padding: 5px 24px;
+}
+.bannerSection {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  height: 30%;
+  width: 20%;
+  transform: scale(1);
+}
+.cards img {
+  width: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.dark-mode {
+  background-color: rgb(46, 45, 45);
+}
+.dark-mode p,
+.dark-mode h5,
+.dark-mode h3 ,
+.dark-mode .dark{
+  color: white;
+}
+.dark-mode header {
+  background-color: rgb(115, 115, 122);
+}
+.fa-regular .fa-moon {
+  color: black;
+}
+.fa-solid .fa-moon {
+  color: white;
+}

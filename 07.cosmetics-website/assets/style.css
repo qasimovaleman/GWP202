@@ -52,12 +52,67 @@
 header {
   background-color: #eeb5b533;
 }
+/* CAROUSEL SECTION */
 #bgImage {
   background-image: url("../image/background9.jpg");
   height: 92vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.divParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 180px;
+  left: 120px;
+}
+.childLeft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.childLeft h1 {
+  font-weight: 700;
+  font-size: 47.0016px;
+  font-family: "Syne", sans-serif;
+  color: #232323;
+  line-height: 51.7018px;
+}
+.childLeft p {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "EB Garamond", serif;
+  color: #626262;
+}
+.childLeft a {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Syne", sans-serif;
+}
+.childLeft button {
+  color: black;
+  background: transparent;
+  border: 2px solid orangered;
+  width: 180px;
+  border-radius: 2px;
+  padding: 10px 20px;
+  font-family: "Syne", sans-serif;
+}
+.childLeft button:hover {
+  background-color: orangered;
+  color: white;
+}
+.childRight {
+  width: 50%;
+}
+.childRight img {
+  width: 90%;
 }
 /* -------------------------------------------------------------------------------- */
 /* ABOUT SECTION STYLE */
@@ -635,7 +690,7 @@ footer {
   font-family: "Syne", sans-serif;
   text-decoration: none;
 }
-.footRight a:hover{
+.footRight a:hover {
   color: red;
 }
 .footLeft a:hover {
@@ -653,7 +708,7 @@ footer {
 .footRight input {
   padding: 10px 15px;
   outline: none;
-font-weight: 400;
+  font-weight: 400;
   height: 50px;
   font-family: "Syne", sans-serif;
 }
@@ -668,7 +723,7 @@ font-weight: 400;
   justify-content: center;
   align-items: center;
 }
-.footRight p{
+.footRight p {
   font-family: "Syne", sans-serif;
   color: #000000;
   left: 150px;

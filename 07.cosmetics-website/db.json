@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "CARE CREAM",
+      "price": 65.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "RELIEF LOTION",
+      "price": 60.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "BODY LOTION",
+      "price": 80.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "CODE",
+      "price": 10.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/5.png"
+    },
+    {
+      "id": 5,
+      "title": "CODE",
+      "price": 10.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/1.png"
+    },
+    {
+      "id": 6,
+      "title": "GWP",
+      "price": 60.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item2.jpg"
+    },
+    {
+      "id": 7,
+      "title": "BODY LOTION",
+      "price": 80.0,
+      "imageUrl": "https://mobirise.com/extensions/naturalm4/natural-cosmetic/assets/images/item3.jpg"
+    }
+  ]
+}

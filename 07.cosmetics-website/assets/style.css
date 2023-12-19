@@ -758,11 +758,22 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.buttonDiv  button{
+.buttonDiv button {
   width: 140px;
   height: 40px;
   background-color: maroon;
   border: none;
   color: white;
   border-radius: 6px;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+.cardDiv {
+  width: 30%;
 }
